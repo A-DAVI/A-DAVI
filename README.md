@@ -9,7 +9,7 @@ Sou um desenvolvedor curioso e orientado a resultado, com forte interesse em **L
 ## 🏆 GitHub Highlights
 
 <p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=A-DAVI&theme=darkhub&margin-w=10&margin-h=10" alt="A-DAVI" />
+  <img src="https://github-profile-trophy.vercel.app/?username=A-DAVI&theme=onedark&row=1&column=6" />
 </p>
 
 ---
