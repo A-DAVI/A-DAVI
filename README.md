@@ -39,5 +39,3 @@ Desenvolvedor focado em **IA, automação e backend**, com interesse em LLMs, ag
 * Email: [cassolidavi603@gmail.com](mailto:cassolidavi603@gmail.com)
 
 ---
-
-> README simples, direto e alinhado com prática profissional.
