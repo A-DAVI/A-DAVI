@@ -1,20 +1,31 @@
-# Hi 👋, I'm **Davi Cassoli**
+# Hi, I'm **Davi Cassoli**
 
-### Desenvolvedor focado em IA, automação e produtos digitais
+### Developer • IA • Automação • Sistemas Distribuídos
 
-Sou um desenvolvedor curioso e orientado a resultado, com forte interesse em **LLMs, agentes inteligentes, MCP e automação de sistemas**. Gosto de entender o *porquê* das decisões técnicas e transformar ideias em soluções funcionais e escaláveis.
+Sou desenvolvedor com foco em **arquitetura, automação e aplicações baseadas em IA**. Trabalho com LLMs, agentes inteligentes e backend moderno, sempre priorizando **clareza técnica, decisões bem justificadas e entrega de valor real**.
 
----
-
-## 🏆 GitHub Highlights
-
-<p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=A-DAVI&theme=onedark&row=1&column=6" />
-</p>
+Não busco apenas fazer funcionar — busco **entender, estruturar e escalar**.
 
 ---
 
-## 📊 GitHub Stats
+## 🧭 Atuação atual
+
+* Desenvolvimento de **sistemas com LLMs, agents e MCP**
+* Construção de **APIs, serviços e aplicações web**
+* Automação de processos e integração de sistemas
+
+---
+
+## 🧠 Princípios técnicos
+
+* Código simples escala melhor que soluções complexas
+* Arquitetura deve reduzir acoplamento e custo cognitivo
+* Automação é alavanca de produtividade
+* Métricas e observabilidade importam
+
+---
+
+## 📊 GitHub (atividade pública)
 
 <p align="center">
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=A-DAVI&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
@@ -30,50 +41,30 @@ Sou um desenvolvedor curioso e orientado a resultado, com forte interesse em **L
 
 ---
 
-## 🔭 Atualmente trabalhando em
-
-* Projetos envolvendo **agents, MCP e aplicações baseadas em LLMs**
-* Desenvolvimento de **sites, APIs e aplicativos**
-
-## 🌱 Atualmente estudando
-
-* LangChain
-* FastAPI
-* React
-* Python & Java
-* Tauri
-
----
-
-## 🧠 Tecnologias & Ferramentas
+## 🛠️ Stack principal
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,java,js,react,nodejs,fastapi,flask,spring,html,css,git,docker,sqlite,mysql,postman,figma" />
+  <img src="https://skillicons.dev/icons?i=python,java,js,react,nodejs,fastapi,spring,git,docker,postgres,mysql" />
   <img src="https://cdn.simpleicons.org/langchain/ffffff" height="40" />
   <img src="https://cdn.simpleicons.org/ollama/ffffff" height="40" />
 </p>
 
 ---
 
-## ⚡ Um pouco mais sobre mim
+## 📌 O que você encontrará neste perfil
 
-* Fascinado por **inteligência artificial e LLMs**
-* Acredito que **automação é alavanca de produtividade**
-* Prefiro código simples, explícito e bem justificado
-
----
-
-## 🌐 Conecte-se comigo
-
-<p align="left">
-<a href="https://github.com/A-DAVI" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/Davi%20Cassoli%20Lira" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/Davi%20Cassoli" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" height="30" width="40" /></a>
-<a href="https://instagram.com/davicassoli" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" /></a>
-</p>
+* Projetos focados em **IA aplicada e backend**
+* Experimentos com **agents, LLM orchestration e automação**
+* Código organizado, com preocupação arquitetural
 
 ---
 
-📫 **Contato:** [cassolidavi603@gmail.com](mailto:cassolidavi603@gmail.com)
+## 🌐 Contato
 
-> Este README representa meu aprendizado contínuo e minha exploração prática do ecossistema de IA, backend e automação.
+* GitHub: [https://github.com/A-DAVI](https://github.com/A-DAVI)
+* LinkedIn: [https://linkedin.com/in/Davi%20Cassoli%20Lira](https://linkedin.com/in/Davi%20Cassoli%20Lira)
+* Email: [cassolidavi603@gmail.com](mailto:cassolidavi603@gmail.com)
+
+---
+
+> Perfil em evolução contínua, refletindo aprendizado prático e amadurecimento técnico.
