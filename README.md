@@ -27,7 +27,7 @@ Desenvolvedor focado em **IA, automação e backend**, com interesse em LLMs, ag
 ##  Stack principal
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,java,js,nodejs,react,fastapi,spring,git,docker,postgres" />
+  <img src="https://skillicons.dev/icons?i=python,java,js,nodejs,react,fastapi,spring,git,docker,langchain,langgraph" />
 </p>
 
 ---
