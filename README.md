@@ -17,12 +17,15 @@ Sou um desenvolvedor curioso e orientado a resultado, com forte interesse em **L
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=A-DAVI&show_icons=true&theme=dark&include_all_commits=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=A-DAVI&layout=compact&theme=dark" height="165" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=A-DAVI&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=A-DAVI&theme=dark" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=A-DAVI&layout=compact&theme=dark&hide=html,css" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=A-DAVI&theme=dark" />
 </p>
 
 ---
