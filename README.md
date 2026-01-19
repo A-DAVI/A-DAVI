@@ -4,7 +4,7 @@ Desenvolvedor focado em **IA, automação e backend**, com interesse em LLMs, ag
 
 ---
 
-## 🔧 O que faço
+##  O que faço
 
 * Desenvolvimento de aplicações backend e APIs
 * Projetos com **LLMs, agents e automação**
@@ -12,7 +12,7 @@ Desenvolvedor focado em **IA, automação e backend**, com interesse em LLMs, ag
 
 ---
 
-## 📊 GitHub Activity
+## GitHub Activity
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=A-DAVI&show_icons=true&theme=dark&hide=commits" />
@@ -24,7 +24,7 @@ Desenvolvedor focado em **IA, automação e backend**, com interesse em LLMs, ag
 
 ---
 
-## 🛠️ Stack principal
+##  Stack principal
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,java,js,nodejs,react,fastapi,spring,git,docker,postgres" />
@@ -32,7 +32,7 @@ Desenvolvedor focado em **IA, automação e backend**, com interesse em LLMs, ag
 
 ---
 
-## 📫 Contato
+## Contato
 
 * GitHub: [https://github.com/A-DAVI](https://github.com/A-DAVI)
 * LinkedIn: [https://linkedin.com/in/Davi%20Cassoli%20Lira](https://linkedin.com/in/Davi%20Cassoli%20Lira)
