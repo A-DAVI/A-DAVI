@@ -1,4 +1,4 @@
-# Olá, sou o Davi Cassoli
+# Olá, prazer Davi Cassoli
 
 Desenvolvedor backend com foco em **automação, IA aplicada e sistemas confiáveis**.  
 Trabalho na interseção entre **código, regras de negócio e decisões críticas**, usando IA como ferramenta — não como atalho.
