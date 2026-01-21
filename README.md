@@ -59,7 +59,7 @@ Ferramentas são importantes. **Decisões são mais.**
 
 ---
 
-## GitHub em números (contexto, não objetivo)
+## GitHub
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=A-DAVI&show_icons=true&theme=dark&hide=commits" />
