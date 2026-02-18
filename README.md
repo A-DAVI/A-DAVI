@@ -7,48 +7,6 @@ Me interesso por problemas reais, dados imperfeitos e sistemas que precisam **fu
 
 ---
 
-## Como eu penso software
-
-- **IA não substitui entendimento**: uso LLMs e agents com limites claros, validações e regras determinísticas quando necessário.
-- **Automação é responsabilidade**: reduzir esforço humano também significa reduzir riscos.
-- **Simplicidade escala melhor** do que abstrações frágeis.
-- Prefiro sistemas **observáveis, explicáveis e fáceis de manter**.
-
----
-
-## O que eu faço na prática
-
-- Desenvolvimento de **APIs e serviços backend**
-- Automação de processos e integração entre sistemas
-- Projetos com **LLMs, agents e arquiteturas híbridas**
-- Tradução de regras de negócio complexas em código confiável
-
----
-
-## Projetos em destaque
-
-### 🧠 Form-AI  
-Sistema de diagnóstico tributário automatizado para preparação da Reforma Tributária brasileira.
-
-- Arquitetura híbrida: **agents + regras determinísticas**
-- LLMs usados com **controle de alucinação numérica**
-- Integração com **API da Receita Federal**
-- Base legal construída a partir de **múltiplas fontes oficiais**
-
-> IA usada onde faz sentido. Regras usadas onde precisão é obrigatória.
-
----
-
-### 🐾 MyBuddy  
-Plataforma de adoção de pets desenvolvida em ambiente acadêmico colaborativo.
-
-- APIs REST com **Spring Boot**
-- Fluxo de autenticação com **JWT**
-- Trabalho em equipe com **Git Flow e code review**
-- Correções reais em código legado, não só features novas
-
----
-
 ## Stack que uso com propósito
 
 <p align="left">
