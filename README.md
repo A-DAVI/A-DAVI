@@ -1,13 +1,13 @@
 # Olá, prazer Davi Cassoli
 
-Desenvolvedor backend com foco em **automação, IA aplicada e sistemas confiáveis**.  
+Desenvolvedor backend com foco em **automação, IA aplicada**.  
 
 ---
 
 ## Stack que uso
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,java,js,nodejs,fastapi,spring,docker,git,langchain" />
+  <img src="https://skillicons.dev/icons?i=python,java,js,nodejs,fastapi,spring,docker,git" />
 </p>
 
  ---
