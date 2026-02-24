@@ -15,7 +15,5 @@ Desenvolvedor backend com foco em **automação, IA aplicada**.
 ## Contato
 
 - GitHub: https://github.com/A-DAVI  
-- LinkedIn: https://linkedin.com/in/davi-cassoli-lira  
-- Email: cassolidavi603@gmail.com  
-
-Aberto a conversar sobre **backend, automação, IA aplicada e sistemas reais**.
+- LinkedIn: https://linkedin.com/in/davi-cassoli
+- Email: davicassolidev@gmail.com 
