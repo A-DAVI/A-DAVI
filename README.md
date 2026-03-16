@@ -7,7 +7,7 @@ Desenvolvedor backend com foco em **automação e IA aplicada**.
 ## Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,java,nodejs,typescript,angular,spring,docker,git" />
+  <img src="https://skillicons.dev/icons?i=python,java,nodejs,typescript,angular,spring,docker,git,keycloak" />
 </p>
 
 ---
