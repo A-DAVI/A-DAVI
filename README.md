@@ -68,16 +68,6 @@ Dashboard em tempo real para monitoramento de robôs RPA. Construído com TypeSc
 
 ---
 
-### 🏢 [Sistema-Capt-Empresarial](https://github.com/A-DAVI/Sistema-Capt-Empresarial)
-Sistema desktop corporativo para gestão e análise de despesas empresariais.
-- Registro e gestão centralizada de despesas
-- Análise multi-empresa
-- Interface moderna e responsiva
-
-**Stack:** HTML | CSS | JavaScript
-
----
-
 ### 🐾 [MyBuddy](https://github.com/A-DAVI/MyBuddy)
 **O HUB completo do ecossistema pet local**
 
@@ -102,23 +92,6 @@ MyBuddy é uma plataforma web que centraliza adoção, serviços, eventos e mark
 - **Frontend:** HTML5/CSS3/JavaScript (legado) | Angular (em migração)
 
 **Status:** Projeto acadêmico com evolução contínua | **Time:** 4 desenvolvedores | **Versão:** 1.0+
-
----
-
-## 📈 Contribuições & Impacto
-
-- **467+ commits** no último ano em projetos corporativos
-- **23 repositórios** entre projetos pessoais e corporativos
-- Líder técnico de múltiplas soluções RPA em produção
-- Mentor em arquitetura de sistemas e boas práticas
-
-### Projetos em Produção
-- RPA para processamento de IRPF
-- Automação de cartórios
-- Sistema de conferência de NFs-e
-- Dashboard de fluxo de caixa
-- Monitor de processos RPA
-- Integração de agentes IA com processos corporativos
 
 ---
 
