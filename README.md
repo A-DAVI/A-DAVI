@@ -1,6 +1,6 @@
 <div align="center">
 
-# Olá, prazer! 👋
+# hi everyone! 👋
 
 ## Davi Cassoli
 
