@@ -48,6 +48,21 @@ Sistema desktop corporativo para gestão e análise de despesas empresariais.
 - Registro e gestão centralizada de despesas
 - Análise multi-empresa
 - Interface moderna e responsiva
+
+### 🐾 [MyBuddy](https://github.com/A-DAVI/MyBuddy)
+Plataforma web RESTful para centralizar o ecossistema de adoção e cuidados de animais de estimação em nível local. Conecta ONGs/protetores com potenciais adotantes através de portal de adoção, divulgação de feiras e guia de serviços pet.
+
+**Funcionalidades:**
+- 🐶 Portal de adoção com perfis detalhados e filtros inteligentes
+- 🎪 Divulgação de feiras de adoção locais
+- 🏥 Guia geolocalizado de pet shops e clínicas veterinárias
+- 👥 Sistema de usuários e favoritos
+- 🛒 Marketing Place para Pet shops
+
+**Stack:** Java | Spring Boot | PostgreSQL e mongoDB | Angular | Maven | Keycloak | API MERCADO PAGO
+
+**Status:** Em desenvolvimento | **Contribuidores:** Community | **Commits:** 41+
+
 ---
 
 ## 📈 Contribuições & Impacto
