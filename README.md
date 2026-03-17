@@ -1,6 +1,6 @@
 <div align="center">
 
-# hi everyone! 👋
+# Hi everyone! 👋
 
 ## Davi Cassoli
 
