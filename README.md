@@ -19,7 +19,7 @@ from script to production-grade architecture.
 
 Desenvolvedor de automação com foco em **RPA**, **integração de IA** e **arquitetura de sistemas backend**.
 
-Trabalho na [@GRUPO14D](https://grupo14d.com.br) como desenvolvedor responsável por toda a infraestrutura de automações — 10+ RPAs em produção cobrindo processos fiscais, contábeis, financeiros e de RH. Construí do zero o **MONITOR-RPA**, um dashboard full-stack para monitoramento em tempo real de todos os robôs.
+Trabalho na [@GRUPO14D](https://grupo14d.com.br) como desenvolvedor responsável por toda a infraestrutura de automações — 20+ RPAs em produção cobrindo processos fiscais, contábeis, financeiros e de RH. Construí do zero o **MONITOR-RPA**, um dashboard full-stack para monitoramento em tempo real de todos os robôs.
 
 Atualmente cursando **Análise e Desenvolvimento de Sistemas** na UniCesumar e me aprofundando em engenharia de IA (LLMs, RAG, MCP, agentes).
 
@@ -57,7 +57,7 @@ Atualmente cursando **Análise e Desenvolvimento de Sistemas** na UniCesumar e m
 
 ## Projetos em destaque
 
-### 📊 [MONITOR-RPA](https://github.com/GRUPO14D/MONITOR-RPA)
+### [MONITOR-RPA](https://github.com/GRUPO14D/MONITOR-RPA)
 
 Dashboard full-stack para monitoramento em tempo real de 10+ robôs RPA em produção.
 
@@ -69,7 +69,7 @@ Dashboard full-stack para monitoramento em tempo real de 10+ robôs RPA em produ
 
 ---
 
-### 🐾 [MyBuddy](https://github.com/EderHenriq/MyBuddy)
+### [MyBuddy](https://github.com/EderHenriq/MyBuddy)
 
 Plataforma que centraliza adoção, serviços, eventos e marketplace pet — conectando adotantes, ONGs, pet shops e clínicas veterinárias.
 
@@ -83,7 +83,7 @@ Plataforma que centraliza adoção, serviços, eventos e marketplace pet — con
 
 ---
 
-### 🤖 Form-AI
+### Form-AI
 
 Sistema de diagnóstico fiscal e qualificação de leads com arquitetura híbrida — LLM + regras determinísticas, exposto via MCP server.
 
