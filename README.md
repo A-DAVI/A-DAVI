@@ -1,30 +1,31 @@
 <div align="center">
 
-# Hi everyone! 👋
+# Davi Cassoli
 
-## Davi Cassoli
+### RPA Developer & Automation Engineer
 
-### Technical Manager | RPA Architect | AI/Automation Specialist
+Automating enterprise processes in accounting, fiscal, and HR domains —
+from script to production-grade architecture.
 
-Building intelligent automation solutions for enterprise processes
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/A-DAVI)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/davi-cassoli)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail)](mailto:davicassolidev@gmail.com)
 
 </div>
 
 ---
 
-## 🎯 Sobre Mim
+## Sobre mim
 
-Manager técnico com **expertise em automação de processos (RPA)**, **arquitetura de soluções backend** e **integração de IA**. Atualmente liderando a equipe técnica na **@GRUPO14D**, desenvolvendo soluções inteligentes para setores fiscal, contábil, financeiro e recursos humanos.
+Desenvolvedor de automação com foco em **RPA**, **integração de IA** e **arquitetura de sistemas backend**.
 
-### 🏢 Experiência & Liderança
-- **Manager Técnico** na GRUPO14D - Liderança técnica, arquitetura de soluções RPA e IA
-- Especialista em **RPA Automation** e integração com APIs
-- Arquiteto de sistemas backend escaláveis
-- Integração de **Agentes de IA** com processos corporativos (Claude, LangChain, RAG)
+Trabalho na [@GRUPO14D](https://grupo14d.com.br) como desenvolvedor responsável por toda a infraestrutura de automações — 10+ RPAs em produção cobrindo processos fiscais, contábeis, financeiros e de RH. Construí do zero o **MONITOR-RPA**, um dashboard full-stack para monitoramento em tempo real de todos os robôs.
+
+Atualmente cursando **Análise e Desenvolvimento de Sistemas** na UniCesumar e me aprofundando em engenharia de IA (LLMs, RAG, MCP, agentes).
 
 ---
 
-## 💻 Stack Técnico
+## Stack
 
 ### Backend
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -34,90 +35,70 @@ Manager técnico com **expertise em automação de processos (RPA)**, **arquitet
 
 ### Frontend
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 
 ### Banco de Dados
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### DevOps & Ferramentas
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ### IA & Automação
-![Claude AI](https://img.shields.io/badge/Claude%20AI-FF6B6B?style=for-the-badge&logo=openai&logoColor=white)
+![Claude AI](https://img.shields.io/badge/Claude%20AI-FF6B6B?style=for-the-badge&logo=anthropic&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
-![RPA](https://img.shields.io/badge/RPA%20Automation-4285F4?style=for-the-badge&logo=robotic-process-automation&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 
 ---
 
-## 🚀 Principais Projetos
+## Projetos em destaque
 
 ### 📊 [MONITOR-RPA](https://github.com/GRUPO14D/MONITOR-RPA)
-Dashboard em tempo real para monitoramento de robôs RPA. Construído com TypeScript, React e Vite.
-- Monitoramento de processos automáticos
-- Interface intuitiva com dark theme
-- Integração com múltiplos RPAs
 
-**Stack:** TypeScript | React | Vite
+Dashboard full-stack para monitoramento em tempo real de 10+ robôs RPA em produção.
 
----
+- Autenticação via token nas rotas POST/GET
+- Deploy contínuo via Vercel + pm2 no servidor
+- Backend Node.js/Fastify + Frontend React/Vite + PostgreSQL (Neon)
 
-### 🐾 [MyBuddy](https://github.com/A-DAVI/MyBuddy)
-**O HUB completo do ecossistema pet local**
-
-MyBuddy é uma plataforma web que centraliza adoção, serviços, eventos e marketplace pet em um único lugar - conectando adotantes, ONGs, protetores, pet shops e clínicas veterinárias.
-
-**O Problema que Resolvemos:**
-- 🏢 ONGs e protetores lutam por visibilidade em redes sociais desordenadas
-- 🔍 Adotantes se perdem em buscas ineficientes
-- 🏥 Tutores não encontram serviços locais confiáveis
-
-**Funcionalidades Principais:**
-- 🐶 **Portal de Adoção** - Vitrine com perfis detalhados e filtros por espécie, porte e localização
-- 📅 **Feiras de Adoção** - Cadastro e divulgação de eventos locais por ONGs e protetores
-- 🗺️ **Guia de Serviços** - Diretório geolocalizado de pet shops e clínicas veterinárias
-- 🏪 **Marketplace** - Compra e venda de produtos e serviços pet com pagamento integrado
-- 💰 **Doações** - Canal direto de apoio financeiro para ONGs e protetores
-- 🔐 **Autenticação** - Login federado via Keycloak com perfis para adotante, ONG e pet shop
-
-**Stack Tecnológico:**
-- **Backend:** Java 21 | Spring Boot 3 | Keycloak | Maven
-- **Banco de Dados:** MongoDB (adoção, usuários, eventos) | PostgreSQL (Marketplace)
-- **Frontend:** HTML5/CSS3/JavaScript (legado) | Angular (em migração)
-
-**Status:** Projeto acadêmico com evolução contínua | **Time:** 4 desenvolvedores | **Versão:** 1.0+
+**Stack:** TypeScript · React · Vite · Fastify · PostgreSQL
 
 ---
 
-## 🎓 Especialidades
+### 🐾 [MyBuddy](https://github.com/EderHenriq/MyBuddy)
 
-✅ RPA Automation & Process Mining  
-✅ Backend Architecture & Scalability  
-✅ AI/ML Integration (Claude, LangChain, RAG)  
-✅ Technical Leadership & Team Management  
-✅ API Design & RESTful Services  
-✅ Database Architecture  
-✅ DevOps & Containerization
+Plataforma que centraliza adoção, serviços, eventos e marketplace pet — conectando adotantes, ONGs, pet shops e clínicas veterinárias.
+
+- Autenticação federada com **Keycloak 26**
+- Pagamento integrado via **Mercado Pago**
+- App mobile em **Flutter** + Web em **Angular**
+
+**Stack:** Java 21 · Spring Boot 3 · Angular · Flutter · Keycloak · Docker · MongoDB · PostgreSQL
+
+> Projeto acadêmico (TCC) · Time de 4 devs
 
 ---
 
-## 📞 Contato & Links
+### 🤖 Form-AI
+
+Sistema de diagnóstico fiscal e qualificação de leads com arquitetura híbrida — LLM + regras determinísticas, exposto via MCP server.
+
+**Stack:** Python · Claude API · LangChain · MCP
+
+---
+
+## Foco atual
+
+- Aprofundando em **engenharia de IA**: RAG, agentes, MCP
+- Construindo base sólida em **algoritmos e estruturas de dados**
+- Evoluindo de automação pura para **AI Engineering**
+
+---
 
 <div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/A-DAVI)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/davi-cassoli)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail)](mailto:davicassolidev@gmail.com)
-[![Website](https://img.shields.io/badge/Website-Grupo14D-blue?style=for-the-badge)](https://grupo14d.com.br)
-
----
-
-<sub>Manager Técnico @ **GRUPO14D** | Especialista em Automação e IA</sub>
-
+<sub>Maringá, PR · davicassolidev@gmail.com</sub>
 </div>
