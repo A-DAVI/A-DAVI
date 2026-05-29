@@ -4,8 +4,8 @@
 
 ### RPA Developer & Automation Engineer
 
-Automating enterprise processes in accounting, fiscal, and HR domains —
-from script to production-grade architecture.
+Automating enterprise processes in accounting, fiscal, and HR domains.
+From script to production-grade architecture.
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/A-DAVI)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/davi-cassoli)
@@ -19,9 +19,9 @@ from script to production-grade architecture.
 
 Desenvolvedor de automação com foco em **RPA**, **integração de IA** e **arquitetura de sistemas backend**.
 
-Trabalho na [@GRUPO14D](https://grupo14d.com.br) como desenvolvedor responsável por toda a infraestrutura de automações — 15 RPAs em produção cobrindo processos fiscais, contábeis, financeiros e de RH. Construí do zero o **MONITOR-RPA**, um dashboard full-stack para monitoramento em tempo real de todos os robôs, e o **NFS-e Forms**, uma plataforma SaaS interna que automatiza a emissão de notas fiscais via portal Elotech com fila de jobs e telemetria integrada.
+Trabalho na [@GRUPO14D](https://grupo14d.com.br) como desenvolvedor responsável por toda a infraestrutura de automações: 15 RPAs em produção cobrindo processos fiscais, contábeis, financeiros e de RH. Construí do zero o **MONITOR-RPA**, dashboard full-stack para monitoramento em tempo real de todos os robôs, o **grupo14d-toolkit**, monorepo Python que sustenta o ecossistema, e o **NFS-e Forms**, plataforma SaaS interna que automatiza a emissão de notas fiscais via portal Elotech, hoje em produção.
 
-Atualmente cursando **Análise e Desenvolvimento de Sistemas** na UniCesumar (5º semestre) e aprofundando em engenharia de IA — LLMs, RAG, MCP e agentes em produção.
+Atualmente cursando **Análise e Desenvolvimento de Sistemas** na UniCesumar (5º semestre) e aprofundando em engenharia de IA: LLMs, RAG, MCP e agentes em produção.
 
 ---
 
@@ -44,6 +44,7 @@ Atualmente cursando **Análise e Desenvolvimento de Sistemas** na UniCesumar (5�
 
 ### Banco de Dados
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
@@ -58,47 +59,52 @@ Atualmente cursando **Análise e Desenvolvimento de Sistemas** na UniCesumar (5�
 ![Claude AI](https://img.shields.io/badge/Claude%20AI-FF6B6B?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ---
 
 ## Projetos em destaque
 
-### [MONITOR-RPA](https://github.com/GRUPO14D/MONITOR-RPA)
+### [MONITOR-RPA](https://github.com/GRUPO14D/MONITOR-RPA) · v2.4.1
 
-Dashboard full-stack para monitoramento em tempo real de 15 RPAs em produção no Grupo 14D.
+Dashboard full-stack de observabilidade para os 15 RPAs em produção no Grupo 14D.
 
-- SSE para streaming de eventos em tempo real
-- Biblioteca `grupo14d-telemetry` (PyPI-style, pip+PAT) com `HeartbeatDaemon`, `TelemetryConfig` em cascata de 3 camadas e compatibilidade com PyInstaller — 77 testes, 100% verdes
-- Fila de jobs via `pg_boss` integrada ao Neon/PostgreSQL
-- Deploy contínuo via Vercel + pm2 desacoplado de sessão RDP
+- SSE com fallback para polling no streaming de eventos em tempo real
+- Fila de jobs in-memory (substituiu o `pg_boss`), reconstruída a partir do estado a cada boot
+- Views dedicadas: live, operations, monthly, business, agents, observers e config
+- Integra `grupo14d-telemetry` com heartbeat e telemetria de CPU/memória via `psutil`
+- Alertas por email em construção (watchdog de heartbeat, erro de RPA e job falho)
+- Deploy via Vercel (web) + pm2 (API desacoplada de sessão RDP)
 
 **Stack:** TypeScript · React · Vite · Fastify · PostgreSQL (Neon) · pm2
 
 ---
 
-### NFS-e Forms
+### NFS-e Forms · em produção
 
 Plataforma SaaS interna que automatiza a emissão de notas fiscais de serviço no portal Elotech (OXY) para os clientes do Grupo 14D.
 
-- Frontend React/Vite (Vercel) + backend Node.js serverless que enfileira jobs via `pg_boss`
-- Worker interno em Fastify consome a fila e dispara automação via framework `grupo14d-observer`
-- `grupo14d-observer` gera harnesses de navegação automaticamente via análise de DOM — novos portais exigem mínima configuração manual
-- Telemetria integrada ao MONITOR-RPA com eventos de ciclo de vida por job
+- Frontend React/Vite no Vercel onde o cliente preenche e envia a solicitação
+- Backend serverless enfileira o job no Neon/PostgreSQL via `pg_boss`
+- Worker interno em Python consome a fila e dispara a automação via framework `grupo14d-observer`
+- Captura o PDF da nota por route intercept, extrai o número da NFS-e e envia por email ao tomador e ao time interno
+- Do formulário ao PDF no email do cliente em 3 a 5 minutos, sem intervenção manual
+- Telemetria por job integrada ao MONITOR-RPA
 
-**Stack:** Python · Playwright · React · Vite · Node.js · Fastify · PostgreSQL · pg_boss
+**Stack:** Python · Playwright · React · Vite · Node.js · PostgreSQL · pg_boss
 
 ---
 
 ### grupo14d-toolkit
 
-Espinha dorsal técnica do ecossistema de RPAs do Grupo 14D.
+Monorepo Python que é a espinha dorsal técnica do ecossistema de automação do Grupo 14D. Pacotes distribuídos via pip + PAT.
 
-- `grupo14d-telemetry`: reporte de eventos e heartbeats via thread daemon, distribuído via PAT
-- `grupo14d-observer`: framework de automação com geração automática de harnesses de navegação
-- Audit Engine: auditoria estática dos 15 RPAs (~47k LOC) com roadmap de saneamento
-- 77 testes unitários · 100% verdes
+- **`grupo14d-telemetry`** `v0.1.0` · estável: reporte de eventos e heartbeats via thread daemon, `TelemetryConfig` em cascata de 3 camadas e compatibilidade com PyInstaller. Integrado nos 15 RPAs, 77 testes verdes.
+- **`grupo14d-ml`** · dev: inferência local com LinearSVC + TF-IDF para classificação de contas de cartórios. Em produção no RPA-Cartórios.
+- **`grupo14d-observer`** · dev: aprendizado por observação. Grava sessões Playwright e gera harnesses de navegação automaticamente. `ElotechExplorer` com BFS, `SemanticMatcher` e auto-labeler.
+- **`grupo14d-bot`** · dev: notificações por email via Gmail API. Qualquer RPA dispara alertas tipados (`error` / `alert` / `info`) com uma linha. OAuth2, config em cascata e templates HTML por severidade.
 
-**Stack:** Python · FastAPI · Pytest · PyInstaller
+**Stack:** Python · Playwright · scikit-learn · Gmail API · Pytest · PyInstaller
 
 ---
 
@@ -108,7 +114,7 @@ Ecossistema de automação para processamento de declarações de IRPF em ambien
 
 - RPA-016: watcher com polling via SMB, detecção e renomeação automática de arquivos via watchdog
 - RPA-017: sync guardian com reconciliação Google Sheets, lógica de `PENDING_MATCH` retry e deduplicação por CPF
-- Todos em produção sob pm2 com heartbeat e telemetria integrada
+- Todos em produção sob pm2 com heartbeat e telemetria integrada ao MONITOR-RPA
 
 **Stack:** Python · Google Sheets API · pm2 · Watchdog
 
@@ -116,7 +122,7 @@ Ecossistema de automação para processamento de declarações de IRPF em ambien
 
 ### [MyBuddy](https://github.com/EderHenriq/MyBuddy)
 
-Plataforma que centraliza adoção, serviços, eventos e marketplace pet — conectando adotantes, ONGs, pet shops e clínicas veterinárias.
+Plataforma que centraliza adoção, serviços, eventos e marketplace pet, conectando adotantes, ONGs, pet shops e clínicas veterinárias.
 
 - Autenticação federada com **Keycloak 26** + OAuth2/PKCE e `KeycloakUserSyncService` com fallback por email
 - Gateway de pagamento **Mercado Pago** com Checkout Pro, webhook validado via HMAC-SHA256, listener assíncrono com Spring Events + `@Async`, polling de status e telas de confirmação/pendente
@@ -131,8 +137,9 @@ Plataforma que centraliza adoção, serviços, eventos e marketplace pet — con
 
 ## Foco atual
 
-- Finalizando o TCC **MyBuddy** — integrando Flutter ao backend Spring Boot com autenticação Keycloak
-- Expandindo o ecossistema de RPAs no Grupo 14D com integração de **LLMs como micro-agentes** dentro de cada RPA
+- Liberando o **NFS-e Forms** para os clientes do Grupo 14D após o primeiro ciclo completo em produção
+- Construindo o **`grupo14d-bot`**, quarto pacote do toolkit, para centralizar notificações por email de todos os RPAs
+- Finalizando o TCC **MyBuddy**: integração Mercado Pago (Checkout Pro + webhook) e Flutter conectado ao backend Spring Boot com Keycloak
 - Aprofundando em **engenharia de IA**: RAG, MCP, agentes e inferência local (Ollama)
 - Construindo base sólida em **algoritmos, estruturas de dados e system design**
 
