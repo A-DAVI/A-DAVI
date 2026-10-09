@@ -4,9 +4,6 @@
 
 **Software Engineer · Data & Automation**
 
-Construo plataformas de dados e automação para o domínio fiscal/contábil —
-do parsing de documentos até sistemas em produção com impacto real no negócio.
-
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/A-DAVI)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/davi-cassoli)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail)](mailto:davicassolidev@gmail.com)
@@ -18,16 +15,6 @@ do parsing de documentos até sistemas em produção com impacto real no negóci
 ## Sobre mim
 
 Engenheiro de software focado em **plataformas de dados**, **automação fiscal** e **arquitetura backend**.
-
-No [@GRUPO14D](https://grupo14d.com.br), cuido da infraestrutura tecnológica de ponta a ponta. Projetei e coloquei em produção:
-
-- **[SIMTRIB](https://github.com/GRUPO14D/SIMTRIB)** — análise tributária com parser de documentos fiscais, ORM, API e frontend
-- **[MONITOR-RPA](https://github.com/GRUPO14D/MONITOR-RPA)** — observabilidade em tempo real das automações
-- **grupo14d-toolkit** — monorepo que sustenta o ecossistema
-- **15+ RPAs** cobrindo fiscal, contábil e RH
-
-Cursando **Análise e Desenvolvimento de Sistemas** na UniCesumar (5º semestre).  
-Próximo passo: engenharia de IA e dados aplicadas ao domínio fiscal.
 
 ---
 
@@ -95,71 +82,3 @@ Próximo passo: engenharia de IA e dados aplicadas ao domínio fiscal.
 ![Mercado Pago](https://img.shields.io/badge/Mercado%20Pago-009EE3?style=for-the-badge&logo=mercadopago&logoColor=white)
 
 ---
-
-## Projetos
-
-### [SIMTRIB](https://github.com/GRUPO14D/SIMTRIB) · em produção
-
-Plataforma de análise tributária que automatiza o estudo fiscal de novos clientes — o processo manual anterior travava o Domínio por horas.
-
-| Camada | O que entrega |
-|--------|----------------|
-| Parser | NF-e, PGDAS e e-Social → 9 relatórios validados contra o Domínio |
-| Persistência | 17 models, upsert idempotente, soft delete, Alembic |
-| API | FastAPI modular + base Siscomex de NCMs |
-| Frontend | React 19 · Radix UI · design system Impeccable |
-| Ops | Docker Compose · CI (pytest, ruff, oxlint, tsc) · AGENTS.md |
-
-**Stack:** Python · FastAPI · SQLAlchemy 2.0 · PostgreSQL · React 19 · Docker
-
----
-
-### [MONITOR-RPA](https://github.com/GRUPO14D/MONITOR-RPA) · v2.4.1
-
-Dashboard de observabilidade em tempo real para **15+ automações** em produção.
-
-- SSE com fallback para polling; fila de jobs reconstruída a cada boot
-- 7 views: live, operations, monthly, business, agents, observers, config
-- Telemetria (CPU/memória + heartbeat) via `grupo14d-telemetry`
-
-**Stack:** TypeScript · React · Fastify · PostgreSQL (Neon) · pm2
-
----
-
-### grupo14d-toolkit
-
-Monorepo Python do ecossistema de automação. Pacotes via pip + PAT.
-
-| Pacote | Papel |
-|--------|--------|
-| **telemetry** `v0.1.0` | Eventos e heartbeats (thread daemon), config em cascata, 77 testes — nos 15 RPAs |
-| **ml** | Classificação de contas (LinearSVC + TF-IDF) — em produção no RPA-Cartórios |
-| **observer** | Aprendizado por observação com Playwright (BFS em portais + auto-labeler) |
-| **bot** | Notificações Gmail API com templates por severidade |
-
----
-
-### [MyBuddy](https://github.com/EderHenriq/MyBuddy) · TCC
-
-Plataforma pet (adoção, serviços, marketplace) na AWS — **7 containers**.
-
-- Java 21 + Spring Boot 3.5 · Angular 21 · Flutter (Clean Architecture)
-- Keycloak 26 + OAuth2/PKCE · Mercado Pago (webhook HMAC-SHA256)
-- EC2 + Caddy + Docker Compose
-
-> Projeto acadêmico · Time de 4 · UniCesumar 2026
-
----
-
-## Agora
-
-- **SIMTRIB** — capitulação de NCMs (Fase 2) e consulta de tributação por produto/segmento
-- **Grupo 14D** — telemetria e build padronizados nos 22 RPAs
-- **IA** — agentes, RAG e LLMs em domínio fiscal
-- **System design** — pipelines ETL e APIs públicas (Siscomex, BrasilAPI, Calculadora CBS)
-
----
-
-<div align="center">
-<sub>Jandaia do Sul, PR · <a href="mailto:davicassolidev@gmail.com">davicassolidev@gmail.com</a></sub>
-</div>
